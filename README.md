@@ -53,3 +53,9 @@ These skills do analysis, not licensed financial advice — confirm material dec
 ⭐ **Star this repo** if it saved you a spreadsheet. New free skills added regularly.
 
 *Made for the Claude Skills ecosystem.*
+
+## 🔗 More Claude Skill Packs
+
+- ⚖️ [Legal Skills](https://github.com/Uhudsavasindankacanokcu2/legal-skills-for-claude) — contract review, drafting, negotiation
+- 🧑‍💼 [Recruiting & HR Skills](https://github.com/Uhudsavasindankacanokcu2/recruiting-skills-for-claude) — JDs, resume screening, interviews
+- 🛒 [E-commerce Seller Skills](https://github.com/Uhudsavasindankacanokcu2/ecommerce-skills-for-claude) — listings, reviews, ad spend
