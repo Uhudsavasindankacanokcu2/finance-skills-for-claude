@@ -29,14 +29,14 @@ Each skill is a single `SKILL.md` — no install, no dependencies. Drop it in yo
 
 ## 💎 Pro pack — 6 skills, deeper analysis
 
-The free core covers the essentials. **[Finance Skills Pro →](GUMROAD_LINK_HERE)** adds:
+The free core covers the essentials. **[Finance Skills Pro →](https://berkanova43.gumroad.com/l/mejcvwe)** adds:
 
 - **financial-statement-builder** — full P&L + balance-sheet draft from raw ledger
 - **scenario-modeler** — "what if we hire 2 people / lose our biggest client / raise prices 10%" with runway impact
 - **kpi-dashboard** — auto-computes the metrics investors ask for (CAC, LTV, gross margin, MRR growth, quick ratio)
 - Priority updates + new skills as the Claude Skills ecosystem grows
 
-**One-time payment. No subscription.** [Get the Pro pack →](GUMROAD_LINK_HERE)
+**One-time payment. No subscription.** [Get the Pro pack →](https://berkanova43.gumroad.com/l/mejcvwe)
 
 ---
 
