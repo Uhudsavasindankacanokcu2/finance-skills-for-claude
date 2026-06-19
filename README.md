@@ -27,6 +27,74 @@ Each skill is a single `SKILL.md` — no install, no dependencies. Drop it in yo
 
 ---
 
+
+---
+
+## 👀 See it in action
+
+**You paste this** (3 months of raw transactions, the kind you'd export from your bank):
+
+```
+Date,Amount,Description
+2026-01-03,-4200,Payroll - Jan
+2026-01-05,8500,Stripe payout - customer invoices
+2026-01-08,-1200,AWS
+2026-01-10,-450,Google Workspace + SaaS tools
+2026-01-15,-2800,Office rent
+2026-01-22,3100,Stripe payout
+2026-01-28,-600,Meta Ads
+2026-02-03,-4200,Payroll - Feb
+2026-02-06,9200,Stripe payout
+2026-02-09,-1250,AWS
+2026-02-15,-2800,Office rent
+2026-02-20,-1100,Meta Ads
+2026-02-25,2400,Stripe payout
+2026-03-03,-6300,Payroll - Mar (new hire)
+2026-03-07,7100,Stripe payout
+2026-03-10,-1400,AWS
+2026-03-15,-2800,Office rent
+2026-03-24,-1600,Meta Ads
+Current cash balance: 41,000
+```
+
+**Claude returns this** (with the skill installed):
+
+---
+
+**Verdict:** Burning ~$1.4k/mo on average, but **March flipped negative (−$6.6k)** after the new hire — at March's rate you have **~6 months runway**. Watch payroll vs revenue.
+
+**Monthly cash flow**
+
+| Month | Operating In | Operating Out | Net Operating | End Balance |
+|-------|-------------:|--------------:|--------------:|------------:|
+| Jan   | $11,600 | $9,850  | **+$1,750** | $42,750 |
+| Feb   | $11,600 | $9,350  | **+$2,250** | $45,000 |
+| Mar   | $7,100  | $12,100 | **−$5,000** | $40,000 |
+
+**Headline metrics**
+- Avg monthly net (3mo): **−$333** (masked — Jan/Feb positive, Mar dragged it down)
+- **March run-rate burn: $5,000/mo → ~6.6 months runway** on $41k
+- Largest recurring outflows: Payroll ($4.2k→$6.3k), Rent ($2.8k), AWS ($1.2k), Meta Ads (rising: $600→$1.6k)
+- Revenue concentration: 100% Stripe (single processor — fine, but revenue is lumpy)
+
+**⚠️ Warnings**
+1. **BURN ACCELERATING** — March out-spend (+$6.3k payroll) outpaced revenue, which *dropped* to $7.1k (from $9.2k). Two things moved the wrong way at once.
+2. **AD SPEND CREEPING** — Meta Ads tripled ($600→$1.6k) with no matching revenue lift yet. Verify ROAS before scaling further.
+3. **REVENUE VOLATILITY** — monthly inflow swings $7.1k–$11.6k. One slow month + the new payroll = faster burn than the average suggests.
+
+**Top 3 actions to extend runway**
+1. **Confirm the new hire pays for themselves** — they added $2.1k/mo cost. Runway holds only if revenue recovers to ≥$9k/mo. *(impact: the whole runway math)*
+2. **Audit Meta Ads ROAS** — if the $1.6k isn't returning ≥$1.6k, cut it → +1 month runway. *(impact: ~$1.6k/mo)*
+3. **Smooth revenue** — the lumpiness is the real risk; a slow month now breaks the model. Push for recurring/upfront billing.
+
+*Analysis only — confirm material decisions with your accountant.*
+
+---
+
+> The skill **never invented a number** — every figure traces to the transactions you pasted. Missing data (e.g. no upcoming-invoice info) is flagged, not guessed.
+
+---
+
 ## 💎 Pro pack — 6 skills, deeper analysis
 
 The free core covers the essentials. **[Finance Skills Pro →](https://berkanova43.gumroad.com/l/mejcvwe)** adds:
